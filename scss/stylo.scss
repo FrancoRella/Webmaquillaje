@@ -1,94 +1,115 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *,
 *::after,
 * ::before {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+}
 
 main {
   background-image: url(../Img/Fondo.jpg);
-  background-size: cover; }
+  background-size: cover;
+}
 
 h1 {
-  color: #fa00e1;
+  color: rgb(250, 0, 225);
   text-align: center;
   font-size: 5rem;
   font-weight: 700;
   font-family: "Lato", sans-serif;
-  font-style: oblique; }
+  font-style: oblique;
+}
 
 h2 {
-  color: #fc95f2;
+  color: rgb(252, 149, 242);
   font-size: 4rem;
   font-weight: 400;
   font-family: "Lato", sans-serif;
-  text-align: center; }
+  text-align: center;
+}
 
 a {
   text-decoration: none;
+
   transition: all 1s;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 /* Header*/
+
 .header {
-  background-image: linear-gradient(to bottom, violet, pink, white); }
+  background-image: linear-gradient(to bottom, violet, pink, white);
+}
 
 .titulo h1 span {
-  color: #21023d; }
+  color: #21023d;
+}
 
 .div-logo {
-  text-align: center; }
+  text-align: center;
+}
 
 .div-logo img {
-  width: 200px; }
+  width: 200px;
+}
 
 a:hover {
-  background-color: #bd939a;
+  background-color: rgb(189, 147, 154);
   padding: 5px;
   color: #a700f5;
   cursor: pointer;
-  transition: 2s; }
+  transition: 2s;
+}
 
 /* Main*/
 .navbar {
-  background-color: #dfa5fa; }
-
+  background-color: #dfa5fa;
+}
 .parrafo {
   text-align: center;
-  padding-top: 30px; }
+  padding-top: 30px;
+}
 
 .parrafo p {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 3.2rem;
   color: #a700f5;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .seccionDescripcion img {
   width: 300px;
-  border-radius: 50%; }
+  border-radius: 50%;
+}
 
 .seccionDescripcion p {
   font-family: "Lato", sans-serif;
   font-size: 2.5rem;
   font-style: italic;
   font-weight: bolder;
-  padding-left: 10px; }
+  padding-left: 10px;
+}
 
 .servicios-sub {
-  margin-top: 80px; }
+  margin-top: 80px;
+}
 
 .servicios-sub span {
-  color: #21023d; }
+  color: #21023d;
+}
 
 .servi img {
   width: 200px;
@@ -96,160 +117,192 @@ a:hover {
   border-radius: 50%;
   margin: 8px;
   /*transform: skew(10deg, 8deg);*/
-  transition: all 2s; }
+  transition: all 2s;
+}
 
 .servi img:hover {
   transform: none;
   cursor: pointer;
   width: 250px;
   height: 250px;
-  border-radius: 5%; }
+  border-radius: 5%;
+}
 
 .servi h4 {
   font-size: 2.2rem;
   margin-top: 20px;
   font-family: "Lato", sans-serif;
-  text-align: center; }
+  text-align: center;
+}
 
 .seccionPrincipal {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 80px;
-  padding: 15px; }
+  padding: 15px;
+}
 
 .info {
-  border: #1900ff 2px groove;
+  border: rgb(25, 0, 255) 2px groove;
   border-radius: 5px;
   width: 300px;
   height: auto;
-  background-color: #e3d8e9; }
+  background-color: rgb(227, 216, 233);
+}
 
 .info h3 {
   font-size: 2.2rem;
   text-align: center;
-  color: #0151fd; }
+  color: rgb(1, 81, 253);
+}
 
 .info h4 {
   font-size: 2rem;
   text-align: center;
-  color: peru; }
+  color: peru;
+}
 
 .info p {
   font-size: 1.5rem;
   text-align: center;
-  line-height: 2; }
+  line-height: 2;
+}
 
 .info1,
 .iconoI {
-  text-align: center; }
+  text-align: center;
+}
 
 .info2 {
-  text-align: center; }
+  text-align: center;
+}
 
 .info2 .pagos {
-  width: 60px; }
+  width: 60px;
+}
 
 /* Footer*/
 footer {
   text-align: center;
-  background-image: linear-gradient(to right, pink, violet); }
-
+  background-image: linear-gradient(to right, pink, violet);
+}
 .footer-ul {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+}
 
 .footer-ul li {
   padding: 1.5px;
-  list-style: none; }
+  list-style: none;
+}
 
 .footer-ul li a {
   font-size: 1.5rem;
-  color: white; }
+  color: white;
+}
 
 .footer-ul li a:hover {
   font-size: 1.5rem;
-  color: tomato; }
+  color: tomato;
+}
 
 .footer-iconos {
-  text-align: center; }
+  text-align: center;
+}
 
 .f-icono {
   padding: 1px;
-  width: 40px; }
+  width: 40px;
+}
 
 footer p {
   font-size: 15px;
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  color: black; }
+  color: black;
+}
 
 /* Pagina contacto*/
+
 .consulta {
   text-align: center;
   font-weight: 700;
   font-size: 3.5rem;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+}
 
 .consulta .consulta-c {
-  color: #21023d; }
+  color: #21023d;
+}
 
 .form-container {
   text-align: center;
   background-image: linear-gradient(to bottom, pink, darksalmon);
   width: 50%;
   margin: auto;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .form-container .label {
   display: block;
   position: relative;
   font-size: 16px;
-  padding: 8px; }
+  padding: 8px;
+}
 
 .form-container .label .label-text {
-  color: #800379;
+  color: rgb(128, 3, 121);
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .form-container .input,
 .textarea {
-  background-color: #e3d8e9;
+  background-color: rgb(227, 216, 233);
   width: 90%;
   padding: 5px;
-  transition: all 2s; }
+  transition: all 2s;
+}
 
 .input:focus {
   width: 100%;
-  padding: 8px; }
+  padding: 8px;
+}
 
 .boton {
   margin-top: 5px;
-  padding: 5px; }
+  padding: 5px;
+}
 
 .boton .boton-class {
   font-size: 1.5rem;
   font-style: italic;
   width: 20%;
-  background-color: #e29bde; }
+  background-color: rgb(226, 155, 222);
+}
 
 .boton .boton-class:hover {
   font-size: 1.7rem;
-  background-color: #f5a106;
-  text-transform: uppercase; }
+  background-color: rgb(245, 161, 6);
+  text-transform: uppercase;
+}
 
 /* Pagina de servicios*/
+
 /* Tabla*/
+
 th {
   font-size: 2.2rem;
   border-style: outset;
   background-image: linear-gradient(to right, pink, violet);
   color: white;
   font-family: "Lato", sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 td {
   font-size: 1.5rem;
@@ -257,34 +310,42 @@ td {
   background-image: linear-gradient(to right, pink, violet);
   text-align: center;
   font-family: "Lato", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 /*Seccion de pagina sobre mi*/
+
 .container {
-  margin: auto, 0; }
+  margin: auto, 0;
+}
 
 .descripcion__parrafo {
   color: #21023d;
   font-size: 2rem;
-  text-align: center; }
+  text-align: center;
+}
 
 .descripcion__imagen {
   margin-top: 40px;
   padding-bottom: 5px;
   display: grid;
   grid-template-columns: repeat(3, 33, 33%);
-  grid-template-rows: auto; }
+  grid-template-rows: auto;
+}
 
 .descripcion__imagen__1 {
   grid-column: 1/2;
-  width: 350px; }
+  width: 350px;
+}
 
 .descripcion__imagen__2 {
   grid-column: 2/3;
   width: 350px;
-  height: 240px; }
+  height: 240px;
+}
 
 .descripcion__imagen__3 {
   grid-column: 3/4;
   width: 350px;
-  height: 240px; }
+  height: 240px;
+}
