@@ -1,0 +1,23 @@
+.header {
+  background-image: linear-gradient(to bottom, violet, pink, white);
+}
+
+.titulo h1 span {
+  color: $violeta;
+}
+
+.div-logo {
+  text-align: center;
+}
+
+.div-logo img {
+  width: 100px + 100; /* Operacion con SASS*/
+}
+
+a:hover {
+  background-color: rgb(189, 147, 154);
+  padding: 5px;
+  color: $rosa-oscuro;
+  cursor: pointer;
+  transition: 2s;
+}

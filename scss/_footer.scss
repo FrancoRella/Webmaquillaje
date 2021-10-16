@@ -1,0 +1,41 @@
+/* Footer*/
+footer {
+  text-align: center;
+  background-image: linear-gradient(to right, pink, violet);
+}
+.footer-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-ul li {
+  padding: 1.5px;
+  list-style: none;
+}
+
+.footer-ul li a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.footer-ul li a:hover {
+  font-size: 1.5rem;
+  color: tomato;
+}
+
+.footer-iconos {
+  text-align: center;
+}
+
+.f-icono {
+  padding: 1px;
+  width: 40px;
+}
+
+footer p {
+  font-size: 5px * 3; /* Operacion con SASS*/
+  font-family: $fuente;
+  font-weight: 300;
+  color: black;
+}

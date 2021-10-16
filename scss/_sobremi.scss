@@ -1,0 +1,64 @@
+.container {
+  margin: auto, 0;
+}
+
+.descripcion__parrafo {
+  color: $violeta;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.imagenes {
+  margin-top: 40px;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 12px;
+}
+
+.imagenes__activas__1 {
+  grid-column: 1/2;
+}
+
+.imagenes__activas__2 {
+  grid-column: 2/3;
+}
+
+.imagenes__activas__3 {
+  grid-column: 3/4;
+}
+
+.imagenes__img {
+  width: 350px;
+  height: 240px;
+}
+
+/**Media queries para hacer responsive el grid sin bootstrap**/
+
+@media (max-width: 640px) {
+  .imagenes {
+    gap: 12px;
+  }
+  .imagenes__activas__1,
+  .imagenes__activas__2,
+  .imagenes__activas__3 {
+    grid-template-columns: 1fr;
+    grid-column: 1/ -1;
+  }
+}
+
+@media (max-width: 799px) {
+  .imagenes {
+    gap: 12px;
+  }
+
+  .imagenes__activas__1,
+  .imagenes__activas__2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .imagenes__activas__3 {
+    grid-template-columns: 1fr;
+    grid-column: 1/ -2;
+  }
+}

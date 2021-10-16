@@ -1,0 +1,63 @@
+.consulta {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5rem;
+  font-family: $fuente;
+}
+
+.consulta .consulta-c {
+  color: $violeta;
+}
+
+.form-container {
+  text-align: center;
+  background-image: linear-gradient(to bottom, pink, darksalmon);
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.form-container .label {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.form-container .label .label-text {
+  color: rgb(128, 3, 121);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.form-container .input,
+.textarea {
+  background-color: rgb(227, 216, 233);
+  width: 90%;
+  padding: 5px;
+  transition: all 2s;
+}
+.input:focus {
+  width: 100%;
+  padding: 8px;
+}
+
+.boton {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.boton .boton-class {
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 20%;
+  background-color: rgb(226, 155, 222);
+}
+
+.boton .boton-class:hover {
+  font-size: 1.7rem;
+  background-color: rgb(245, 161, 6);
+  text-transform: uppercase;
+}

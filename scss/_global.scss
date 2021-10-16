@@ -1,0 +1,23 @@
+h1 {
+  color: $rosa;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: $fuente;
+  font-style: oblique;
+}
+
+h2 {
+  color: $rosa-claro;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: $fuente;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+
+  transition: all 1s;
+  font-size: 1.5rem;
+}

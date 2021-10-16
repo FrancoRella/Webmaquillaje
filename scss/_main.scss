@@ -1,0 +1,114 @@
+main {
+  background-image: url(../Img/Fondo.jpg);
+  background-size: cover;
+}
+
+/* Main*/
+.navbar {
+  background-color: #dfa5fa;
+}
+
+.parrafo {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.parrafo p {
+  font-family: $fuente;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: $rosa-oscuro;
+  text-transform: uppercase;
+}
+
+.seccionDescripcion img {
+  width: 150px * 2; /* Operacion con SASS*/
+  border-radius: 50%;
+}
+
+.seccionDescripcion p {
+  font-family: $fuente;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.servicios-sub {
+  margin-top: 80px;
+}
+
+.servicios-sub span {
+  color: $violeta;
+}
+
+.servi img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 8px;
+  /*transform: skew(10deg, 8deg);*/
+  transition: all 2s;
+}
+
+.servi img:hover {
+  transform: none;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+.servi h4 {
+  font-size: 2.2rem;
+  margin-top: 20px;
+  font-family: $fuente;
+  text-align: center;
+}
+
+.seccionPrincipal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  padding: 15px;
+}
+
+.info {
+  border: rgb(25, 0, 255) 2px groove;
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+  background-color: rgb(227, 216, 233);
+}
+
+.info h3 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: rgb(1, 81, 253);
+}
+
+.info h4 {
+  font-size: 2rem;
+  text-align: center;
+  color: peru;
+}
+
+.info p {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.info1,
+.iconoI {
+  text-align: center;
+}
+
+.info2 {
+  text-align: center;
+}
+
+.info2 .pagos {
+  width: 60px;
+}

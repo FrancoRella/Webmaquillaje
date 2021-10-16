@@ -1,0 +1,17 @@
+th {
+  font-size: 2.2rem;
+  border-style: outset;
+  background-image: linear-gradient(to right, pink, violet);
+  color: white;
+  font-family: $fuente;
+  font-weight: 700;
+}
+
+td {
+  font-size: 1.5rem;
+  border-style: outset;
+  background-image: linear-gradient(to right, pink, violet);
+  text-align: center;
+  font-family: $fuente;
+  font-weight: 400;
+}

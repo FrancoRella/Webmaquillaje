@@ -1,22 +1,99 @@
-* {
-  margin: 0;
-  padding: 0; }
-
-html {
-  font-size: 62.5%;
-  box-sizing: border-box; }
-
-*,
-*::after,
-* ::before {
-  box-sizing: inherit; }
-
 body {
   font-family: "Lato", sans-serif; }
 
-main {
-  background-image: url(../Img/Fondo.jpg);
-  background-size: cover; }
+html {
+  font-size: 62.5%; }
+
+.consulta {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5rem;
+  font-family: "Lato", sans-serif; }
+
+.consulta .consulta-c {
+  color: #21023d; }
+
+.form-container {
+  text-align: center;
+  background-image: linear-gradient(to bottom, pink, darksalmon);
+  width: 50%;
+  margin: auto;
+  padding: 10px; }
+
+.form-container .label {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  padding: 8px; }
+
+.form-container .label .label-text {
+  color: #800379;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+
+.form-container .input,
+.textarea {
+  background-color: #e3d8e9;
+  width: 90%;
+  padding: 5px;
+  transition: all 2s; }
+
+.input:focus {
+  width: 100%;
+  padding: 8px; }
+
+.boton {
+  margin-top: 5px;
+  padding: 5px; }
+
+.boton .boton-class {
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 20%;
+  background-color: #e29bde; }
+
+.boton .boton-class:hover {
+  font-size: 1.7rem;
+  background-color: #f5a106;
+  text-transform: uppercase; }
+
+/* Footer*/
+footer {
+  text-align: center;
+  background-image: linear-gradient(to right, pink, violet); }
+
+.footer-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.footer-ul li {
+  padding: 1.5px;
+  list-style: none; }
+
+.footer-ul li a {
+  font-size: 1.5rem;
+  color: white; }
+
+.footer-ul li a:hover {
+  font-size: 1.5rem;
+  color: tomato; }
+
+.footer-iconos {
+  text-align: center; }
+
+.f-icono {
+  padding: 1px;
+  width: 40px; }
+
+footer p {
+  font-size: 15px;
+  /* Operacion con SASS*/
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black; }
 
 h1 {
   color: #fa00e1;
@@ -38,7 +115,6 @@ a {
   transition: all 1s;
   font-size: 1.5rem; }
 
-/* Header*/
 .header {
   background-image: linear-gradient(to bottom, violet, pink, white); }
 
@@ -49,7 +125,8 @@ a {
   text-align: center; }
 
 .div-logo img {
-  width: 200px; }
+  width: 200px;
+  /* Operacion con SASS*/ }
 
 a:hover {
   background-color: #bd939a;
@@ -57,6 +134,10 @@ a:hover {
   color: #a700f5;
   cursor: pointer;
   transition: 2s; }
+
+main {
+  background-image: url(../Img/Fondo.jpg);
+  background-size: cover; }
 
 /* Main*/
 .navbar {
@@ -75,6 +156,7 @@ a:hover {
 
 .seccionDescripcion img {
   width: 300px;
+  /* Operacion con SASS*/
   border-radius: 50%; }
 
 .seccionDescripcion p {
@@ -150,99 +232,11 @@ a:hover {
 .info2 .pagos {
   width: 60px; }
 
-/* Footer*/
-footer {
-  text-align: center;
-  background-image: linear-gradient(to right, pink, violet); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.footer-ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.footer-ul li {
-  padding: 1.5px;
-  list-style: none; }
-
-.footer-ul li a {
-  font-size: 1.5rem;
-  color: white; }
-
-.footer-ul li a:hover {
-  font-size: 1.5rem;
-  color: tomato; }
-
-.footer-iconos {
-  text-align: center; }
-
-.f-icono {
-  padding: 1px;
-  width: 40px; }
-
-footer p {
-  font-size: 15px;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  color: black; }
-
-/* Pagina contacto*/
-.consulta {
-  text-align: center;
-  font-weight: 700;
-  font-size: 3.5rem;
-  font-family: "Lato", sans-serif; }
-
-.consulta .consulta-c {
-  color: #21023d; }
-
-.form-container {
-  text-align: center;
-  background-image: linear-gradient(to bottom, pink, darksalmon);
-  width: 50%;
-  margin: auto;
-  padding: 10px; }
-
-.form-container .label {
-  display: block;
-  position: relative;
-  font-size: 16px;
-  padding: 8px; }
-
-.form-container .label .label-text {
-  color: #800379;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  text-transform: uppercase; }
-
-.form-container .input,
-.textarea {
-  background-color: #e3d8e9;
-  width: 90%;
-  padding: 5px;
-  transition: all 2s; }
-
-.input:focus {
-  width: 100%;
-  padding: 8px; }
-
-.boton {
-  margin-top: 5px;
-  padding: 5px; }
-
-.boton .boton-class {
-  font-size: 1.5rem;
-  font-style: italic;
-  width: 20%;
-  background-color: #e29bde; }
-
-.boton .boton-class:hover {
-  font-size: 1.7rem;
-  background-color: #f5a106;
-  text-transform: uppercase; }
-
-/* Pagina de servicios*/
-/* Tabla*/
 th {
   font-size: 2.2rem;
   border-style: outset;
@@ -259,7 +253,6 @@ td {
   font-family: "Lato", sans-serif;
   font-weight: 400; }
 
-/*Seccion de pagina sobre mi*/
 .container {
   margin: auto, 0; }
 
