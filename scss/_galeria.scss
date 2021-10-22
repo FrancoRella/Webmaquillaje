@@ -1,0 +1,21 @@
+/* Galeria*/
+.carrusel {
+  text-align: center;
+  padding-top: 10px;
+
+  .titulo-carrusel {
+    font-family: $fuente;
+    font-size: 2.5rem;
+    color: $rosa;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.slider {
+  width: 60%;
+  margin: 10px;
+  img {
+    width: 100%;
+  }
+}

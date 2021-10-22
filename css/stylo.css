@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Lato", sans-serif; }
 
@@ -73,14 +74,6 @@ footer {
   padding: 1.5px;
   list-style: none; }
 
-.footer-ul li a {
-  font-size: 1.5rem;
-  color: white; }
-
-.footer-ul li a:hover {
-  font-size: 1.5rem;
-  color: tomato; }
-
 .footer-iconos {
   text-align: center; }
 
@@ -115,6 +108,7 @@ a {
   transition: all 1s;
   font-size: 1.5rem; }
 
+/* Header*/
 .header {
   background-image: linear-gradient(to bottom, violet, pink, white); }
 
@@ -128,12 +122,22 @@ a {
   width: 200px;
   /* Operacion con SASS*/ }
 
-a:hover {
-  background-color: #bd939a;
-  padding: 5px;
-  color: #a700f5;
-  cursor: pointer;
-  transition: 2s; }
+/*Menú de navegación*/
+.navbar-light {
+  background-image: linear-gradient(to right, violet, pink, white); }
+  .navbar-light .nav-item {
+    padding: 5px; }
+    .navbar-light .nav-item .nav-link {
+      font-family: "Lato", sans-serif;
+      font-size: 1.6rem;
+      color: #2c0000;
+      font-weight: 700; }
+    .navbar-light .nav-item a:hover {
+      background-image: linear-gradient(to right, violet, pink, white);
+      border-radius: 50%;
+      font-size: 2rem;
+      cursor: pointer;
+      transition: 1s; }
 
 main {
   background-image: url(../Img/Fondo.jpg);
@@ -301,3 +305,20 @@ td {
   .imagenes__activas__3 {
     grid-template-columns: 1fr;
     grid-column: 1/ -2; } }
+
+/* Galeria*/
+.carrusel {
+  text-align: center;
+  padding-top: 10px; }
+  .carrusel .titulo-carrusel {
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+    color: #fa00e1;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.slider {
+  width: 60%;
+  margin: 10px; }
+  .slider img {
+    width: 100%; }
