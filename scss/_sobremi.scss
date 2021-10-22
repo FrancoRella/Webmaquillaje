@@ -2,10 +2,18 @@
   margin: auto, 0;
 }
 
+.descripcion {
+  padding-top: 15px;
+  border-radius: 40%;
+}
+
 .descripcion__parrafo {
-  color: $violeta;
+  background-color: rgb(234, 215, 245);
+  color: rgb(0, 74, 158);
   font-size: 2rem;
   text-align: center;
+  font-family: $fuente;
+  font-weight: 700;
 }
 
 .imagenes {
