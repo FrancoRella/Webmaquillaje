@@ -1,6 +1,7 @@
 main {
   background-image: url(../Img/Fondo.jpg);
   background-size: cover;
+  padding-bottom: 4px;
 }
 
 /* Main*/
@@ -35,7 +36,7 @@ main {
 }
 
 .servicios-sub {
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .servicios-sub span {
@@ -46,7 +47,7 @@ main {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 8px;
+  padding: 8px;
   /*transform: skew(10deg, 8deg);*/
   transition: all 2s;
 }
@@ -66,13 +67,14 @@ main {
   text-align: center;
 }
 
-.seccionPrincipal {
+/*.seccionPrincipal {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 80px;
   padding: 15px;
 }
+*/
 
 .info {
   border: rgb(25, 0, 255) 2px groove;
