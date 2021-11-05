@@ -59,13 +59,16 @@ html {
   background-color: #f5a106;
   text-transform: uppercase; }
 
+@media (max-width: 640px) {
+  .form-container {
+    width: 100%; } }
+
 /* Footer*/
 footer {
   text-align: center;
   background-image: linear-gradient(to right, pink, violet);
-  bottom: 0;
   width: 100%;
-  position: static; }
+  position: absolute; }
 
 .footer-ul {
   display: flex;

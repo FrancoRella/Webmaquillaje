@@ -60,3 +60,9 @@
   background-color: rgb(245, 161, 6);
   text-transform: uppercase;
 }
+
+@media (max-width: 640px) {
+  .form-container {
+    width: 100%;
+  }
+}
